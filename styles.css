@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex: auto;
+    flex-flow: column nowrap;
 }
 
 .first {
@@ -57,5 +60,31 @@ img {
     height: auto;
     max-width: 350px;
     margin: 32px;
+}
 
+.second {
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.numbers {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 16px;
+    flex: auto;
+}
+
+.one, .two, .three, .four {
+    display: flex; 
+    height: 250px;
+    max-width: 200px;
+    flex-flow: column nowrap;
+    flex: auto;
+    text-align: center;
+}   
+
+.img1, .img2, .img3, .img4 {
+    display: flex;
+    width: 150px; 
+    height: 150px;
 }
