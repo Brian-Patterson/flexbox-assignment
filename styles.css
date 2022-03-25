@@ -2,8 +2,9 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex: auto;
+    flex-shrink: 0;
     flex-flow: column nowrap;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .first {
@@ -11,7 +12,6 @@ body {
     color: #F9FaF8;
     display: flex;
     flex-flow: column wrap;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -42,7 +42,6 @@ body {
 .hook {
     font-weight: 900;
     font-size: 48px;
-    
 }
 
 button {
@@ -66,12 +65,21 @@ img {
     margin: 32px;
     display: flex;
     flex-direction: column;
+    flex: auto;
 }
 .numbers {
     display: flex;
     flex-flow: row nowrap;
     gap: 16px;
     flex: auto;
+    justify-content: center;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 .one, .two, .three, .four {
@@ -81,10 +89,99 @@ img {
     flex-flow: column nowrap;
     flex: auto;
     text-align: center;
+    color: #1F2937;
 }   
 
 .img1, .img2, .img3, .img4 {
     display: flex;
     width: 150px; 
     height: 150px;
+    object-fit: cover
+}
+
+.third {
+    display:flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.inspire {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 50px;
+    max-width: 815px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+}
+
+.author {
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: flex-end;
+}
+
+.fourth {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.banner {
+    display: flex;
+    padding: 32px;
+    background-color: #3882f6;
+    border-radius: 25px;
+    flex-flow: row;
+    width: 900px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.endtext {
+    display: flex;
+    flex-flow: column nowrap;
+}   
+.call {
+    color: #F9FAF8; 
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.epiloge {
+    color: #E5E7EB;
+}
+
+.lastsign {
+    display: flex;
+    border-color: #F9FaF8;
+    font-size: 20px;
+    font-weight: 600;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FaF8;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
 }
