@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    background-color: #1F2937;
+    color: #F9FaF8;
+    display: flex;
+    flex-flow: column wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 32px;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.links {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+    color: #E5E7EB;
+}
+
+.title {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 32px;
+    align-items: center;
+}
+
+.hook {
+    font-weight: 900;
+    font-size: 48px;
+    
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    margin-top: 16px;
+    color: #F9FaF8;
+    border: 0px;
+}
+
+img {
+    flex: auto;
+    height: auto;
+    max-width: 350px;
+    margin: 32px;
+
+}
