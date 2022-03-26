@@ -37,11 +37,26 @@ body {
     flex-flow: row nowrap;
     margin: 32px;
     align-items: center;
+    justify-content: center;
 }
 
+.t-text {
+    margin-left: 32px ;
+}
+.opener {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
 .hook {
+    display: flex;
     font-weight: 900;
     font-size: 48px;
+    max-width: 400px;
+}
+
+.discripter {
+    color: #E5E7EB
 }
 
 button {
