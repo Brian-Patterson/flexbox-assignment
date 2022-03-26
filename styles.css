@@ -62,7 +62,6 @@ img {
 }
 
 .second {
-    margin: 32px;
     display: flex;
     flex-direction: column;
     flex: auto;
@@ -72,7 +71,10 @@ img {
     flex-flow: row nowrap;
     gap: 16px;
     flex: auto;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 32px;
+    margin-top: 0px;
 }
 
 .title2 {
@@ -80,16 +82,17 @@ img {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-top: 32px;
 }
 
 .one, .two, .three, .four {
     display: flex; 
-    height: 250px;
     max-width: 200px;
     flex-flow: column nowrap;
-    flex: auto;
     text-align: center;
     color: #1F2937;
+    justify-content: center;
+    align-items: center;
 }   
 
 .img1, .img2, .img3, .img4 {
@@ -112,6 +115,7 @@ img {
     flex-flow: column wrap;
     margin: 50px;
     max-width: 815px;
+    margin-top: 0px;
 }
 
 .quote {
