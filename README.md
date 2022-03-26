@@ -1,6 +1,6 @@
 # flexbox-assignment
-"computer with code" photo by Clément Hélardot on Unsplash
-"one" photo by Marianne Bos on Unsplash
-"two" photo by Ricardo Lopez on Unsplash
-"three" photo by Justus Menke on Unsplash
-"four" photo by Kelly Sikkema on Unsplash
+<p>"computer with code" photo by Clément Hélardot on Unsplash</p>
+<p>"one" photo by Marianne Bos on Unsplash</p>
+<p>"two" photo by Ricardo Lopez on Unsplash</p>
+<p>"three" photo by Justus Menke on Unsplash</p>
+<p>"four" photo by Kelly Sikkema on Unsplash</p>
